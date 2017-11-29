@@ -1,0 +1,41 @@
+div#dusktilldawn {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #191970;
+  opacity: 0;
+  z-index: 10;
+}
+div#content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+/* div#info {
+  display: none;
+} */
+div.hline {
+  height: 5px;
+  width: 100%;
+  background-color: #000;
+  position: fixed;
+  top: 50%;
+  z-index: 15;
+}
+button#expl {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  z-index: 20;
+}
+div#sea {
+  background-color: #00f;
+  height: 50%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
